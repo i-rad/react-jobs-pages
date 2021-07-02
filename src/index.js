@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+// changed to hydrate because of server side rendering
+ReactDOM.hydrate(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
